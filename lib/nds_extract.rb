@@ -5,5 +5,6 @@ def directors_totals(nds)
   pp directors_database
   {}
   directors_database.each do |director|
+    director[:movies][:worldwide_gross]
   end
 end
