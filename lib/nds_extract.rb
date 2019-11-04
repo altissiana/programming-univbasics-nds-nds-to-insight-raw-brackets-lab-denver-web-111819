@@ -10,5 +10,6 @@ def directors_totals(nds)
     end
       list[director] = total
   end
-      list
+  pp list
+  list
 end
