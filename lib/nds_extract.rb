@@ -5,5 +5,5 @@ def directors_totals(nds)
   pp nds
   {}
   directors_database.each do |director|
-    director[]
+    director[nds]
 end
