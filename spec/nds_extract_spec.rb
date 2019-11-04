@@ -5,7 +5,7 @@ describe 'The directors_database method can be processed by the directors_totals
     expect(directors_totals(directors_database)).to be_kind_of(Hash)
   end
 
-  describe "and correctly totals the directors' totals" do
+  describe "and correctly totals the directors' totals" do  
     let(:expected) {
       {
         "Stephen Spielberg"=>1357566430,
