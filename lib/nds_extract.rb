@@ -4,4 +4,6 @@ require 'directors_database'
 def directors_totals(nds)
   pp nds
   {}
+  directors_database.each do |director|
+    director[]
 end
