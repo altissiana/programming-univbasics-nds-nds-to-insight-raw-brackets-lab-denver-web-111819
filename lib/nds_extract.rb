@@ -8,8 +8,7 @@ def directors_totals(nds)
     director[:movies].each do |movie|
       total = total + movie[:worldwide_gross]
     end
-      list[director] = total
+      list[director[:name]] = total
   end
-  pp list
   list
 end
