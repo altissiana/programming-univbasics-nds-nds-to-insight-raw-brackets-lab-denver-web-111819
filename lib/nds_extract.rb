@@ -4,9 +4,9 @@ require 'directors_database'
 def directors_totals(nds)
   pp directors_database
   {}
-  total = 0 
   directors_database.each do |director|
-    director[:movies][:worldwide_gross] + total
+    total = 0 
+    director[:movies].each + total
     total
     
   end
